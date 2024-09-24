@@ -20,3 +20,4 @@ def emit_signal_in_transaction(request):
     # Check if any records were created
     records = TestModel.objects.all()
     return render(request, 'index.html', {'records': records})
+git
